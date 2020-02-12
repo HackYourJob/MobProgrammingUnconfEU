@@ -49,9 +49,9 @@ googleAnalytics = ""
     brand = "Mob Programming Unconference EU"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "What is it ?"
-    portfolio = "Portfolio"
-    about = "About"
+    services = "What is it about?"
+    portfolio = "Details"
+    about = "Schedule"
     team = "Team"
     contact = "Register"
 
@@ -68,7 +68,7 @@ googleAnalytics = ""
     # postpended links
     [[menu.postpend]]
       url = "http://gohugo.io"
-      name = "External link"
+      name = "Wiki"
       weight = 10
 
 
@@ -76,7 +76,7 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "June 18-19th 2020, Villefranche-sur-Sâone, France"
+    title = "June 18-19th 2020, Villefranche-sur-Saône, France"
     subtitle = "Mob Programming Unconference Europe"
     buttonText = "Tell me more"
 
@@ -114,54 +114,53 @@ googleAnalytics = ""
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Portfolio"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Details"
+    subtitle = "All the details you need to know to come."
 
     [params.portfolio.modal]
-      client = "Client"
-      date = "Date"
-      category = "Category"
-      buttonText = "Close project"
-
+      # client = "Client"
+      # date = "Date"
+      # category = "Category"
+      buttonText = "Close"
 
     # About section
   [params.about]
     enable = true
-    title = "About"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    endpoint = "Be part<br>of our<br>story!"
+    title = "Schedule"
+    subtitle = "There is no agenda but a rough schedule."
+    endpoint = "Hope to see you soon!"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
       img = "1.jpg"
-      date = "2009-2011"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "Wednesday June 17th 2020"
+      title = "Arriving and welcome activities"
+      description = "You can arrive when you want in the afternoon, ideally before dinner to meet people and then kick off the unconference in the evening."
 
     [[params.about.events]]
       img = "2.jpg"
-      date = "March 2011"
-      title = "An Agency is Born"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "Thursday June 18th 2020"
+      title = "Sessions all day & evening activities"
+      description = "Day start with a 'marketplace' where sessions are proposed, sessions are typically from 10AM to 5:30PM, quick closing and then place to evening activities (alone or together)."
 
     [[params.about.events]]
       img = "3.jpg"
-      date = "December 2012"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "Friday June 19th 2020"
+      title = "Sessions all day & evening activities"
+      description = "Another 'marketplace' to start, then same agenda than Thursday, closing unconference with other evening activities."
 
     [[params.about.events]]
       img = "4.jpg"
-      date = "July 2014"
-      title = "Phase Two Expansion"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "Saturday June 20th 2020"
+      title = "Time to get back home or visit our region!"
+      description = "You can quit on Friday evening but you would miss part of the unconference with evening activities. Stay around for the weekend if you want to discover the countryside or Lyon - city of gastronomy!"
 
 
   # Team section
   [params.team]
-    enable = true
+    enable = false
     # Possibility to center items
     #center = true
     title = "Our amazing team"
@@ -213,7 +212,7 @@ She worked at Pied Piper for years until they went belly up."""
 
   # Client section
     [params.clients_list]
-      enable = true
+      enable = false
       # Possibility to center items
       #center = true
       # Optional client title specifying the involvement
@@ -222,27 +221,27 @@ She worked at Pied Piper for years until they went belly up."""
       # All the clients' logos are stored under 'static/img/logos'.
       # Replace them with your clients's logos.
       # Suggestion: .svg in the size of 280px*80px looks good
-      [[params.clients]]
-        logo = "envato.jpg"
-        link = "#"
+      # [[params.clients]]
+      #   logo = "envato.jpg"
+      #   link = "#"
 
-      [[params.clients]]
-        logo = "designmodo.jpg"
-        link = "#"
+      # [[params.clients]]
+      #   logo = "designmodo.jpg"
+      #   link = "#"
 
-      [[params.clients]]
-        logo = "themeforest.jpg"
-        link = "#"
+      # [[params.clients]]
+      #   logo = "themeforest.jpg"
+      #   link = "#"
 
-      [[params.clients]]
-        logo = "creative-market.jpg"
-        link = "#"
+      # [[params.clients]]
+      #   logo = "creative-market.jpg"
+      #   link = "#"
 
   # Contact section
   [params.contact]
     enable = true
-    title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    title = "Register"
+    subtitle  = "So you are interested, sign-in filling the form and will send you the invoice (to pay as soon as possible to confirm)."
     buttonText = "Send message"
     # netlify = true
 
@@ -264,31 +263,31 @@ She worked at Pied Piper for years until they went belly up."""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    # email = "your@email.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
     #error = "Message could not be send. Please contact us at mail@example.com instead."
 
-    [params.contact.captcha]
+    # [params.contact.captcha]
       # sitekey = ""
 
     # 'warning' defines error messages for invalid inputs
-    [params.contact.form.name]
-      text = "Your Name *"
-      warning = "Please enter your name."
+    # [params.contact.form.name]
+    #   text = "Your Name *"
+    #   warning = "Please enter your name."
 
-    [params.contact.form.email]
-      text = "Your Email *"
-      warning = "Please enter your email address."
+    # [params.contact.form.email]
+    #   text = "Your Email *"
+    #   warning = "Please enter your email address."
 
-    [params.contact.form.phone]
-      text = "Your Phone *"
-      warning = "Please enter your phone number."
+    # [params.contact.form.phone]
+    #   text = "Your Phone *"
+    #   warning = "Please enter your phone number."
 
-    [params.contact.form.message]
-      text = "Your Message *"
-      warning = "Please enter a message."
+    # [params.contact.form.message]
+    #   text = "Your Message *"
+    #   warning = "Please enter a message."
 
       # Add optional form fields to identify contact forms
       #[[params.contact.form.hidden]]
@@ -306,23 +305,23 @@ She worked at Pied Piper for years until they went belly up."""
 
     [[params.footer.social]]
       icon = "fa-twitter"
-      link = "#"
+      link = "https://twitter.com/hackyrjob"
       title = "Twitter"
 
-    [[params.footer.social]]
-      icon = "fa-facebook"
-      link = "#"
-      title = "Facebook"
+    # [[params.footer.social]]
+    #   icon = "fa-facebook"
+    #   link = "#"
+    #   title = "Facebook"
 
-    [[params.footer.social]]
-      icon = "fa-linkedin"
-      link = "#"
-      title = "LinkedIn"
+    # [[params.footer.social]]
+    #   icon = "fa-linkedin"
+    #   link = "#"
+    #   title = "LinkedIn"
 
-    [[params.footer.quicklinks]]
-      text = "Privacy Policy"
-      link = "#"
+    # [[params.footer.quicklinks]]
+    #   text = "Privacy Policy"
+    #   link = "#"
 
-    [[params.footer.quicklinks]]
-      text = "Terms of Use"
-      link = "#"
+    # [[params.footer.quicklinks]]
+    #   text = "Terms of Use"
+    #   link = "#"
