@@ -21,9 +21,9 @@
         <div class="text-muted">
           {{ $contact.description | markdownify }}
         </div>
-        <button type="submit" value="Submit" class="btn btn-xl">
+        <a href="{{ $contact.buttonLink }}" class="btn btn-xl" >
           {{ print $contact.buttonText }}
-        </button>
+        </a>
       </div>
     </div>
   </div>

@@ -247,6 +247,7 @@ This conference is organized by [HackYourJob Community](https://www.hackyourjob.
 
 If you need anything, contact us on Twitter [@HackYrJob](https://twitter.com/HackYrJob) or by email [contact@hackyourjob.org](mailto:contact@hackyourjob.org)."""
     buttonText = "Register"
+    buttonLink = "https://docs.google.com/forms/d/e/1FAIpQLSeKpV-b86TkOPNiETp2vjqQPNmoANNnEOpaDFl9SopUbXehAQ/viewform"
     # netlify = true
 
     # Since this template is static, the contact form uses www.formspree.io as a
