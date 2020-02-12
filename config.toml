@@ -104,7 +104,7 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-lock"
       title = "Open to everyone"
-      description = "There are no requirements on technology you work with or context at your work, just some interest and curiosity to Mob Programming and exchanges with people. **Note: official language will be English**."
+      description = "There are no requirements on technology you work with or context at your work, just some interest and curiosity to Mob Programming and exchanges with people. You can also come accompanied and spend some additional days in our region, see [details](#details). **Note: official language will be English**."
       url = "#"
 
   # Portfolio section
@@ -134,13 +134,13 @@ googleAnalytics = ""
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
-      img = "1.jpg"
+      img = "2.jpg"
       date = "Wednesday June 17th 2020"
       title = "Arriving and welcome activities"
       description = "You can arrive when you want in the afternoon, ideally before dinner to meet people and then kick off the unconference in the evening."
 
     [[params.about.events]]
-      img = "2.jpg"
+      img = "1.jpg"
       date = "Thursday June 18th 2020"
       title = "Sessions all day & evening activities"
       description = "Day start with a 'marketplace' where sessions are proposed, sessions are typically from 10AM to 5:30PM, quick closing and then place to evening activities (alone or together)."
@@ -242,6 +242,10 @@ She worked at Pied Piper for years until they went belly up."""
     enable = true
     title = "Register"
     subtitle  = "So are you interested ? Click below and fill in the form and we will send you the invoice (to pay as soon as possible please, to confirm venue reservation)."
+    description = """
+This conference is organized by [HackYourJob Community](https://www.hackyourjob.org).
+
+If you need anything, contact us on Twitter [@HackYrJob](https://twitter.com/HackYrJob) or by email [contact@hackyourjob.org](mailto:contact@hackyourjob.org)."""
     buttonText = "Register"
     # netlify = true
 
