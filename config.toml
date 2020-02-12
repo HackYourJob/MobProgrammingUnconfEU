@@ -241,8 +241,8 @@ She worked at Pied Piper for years until they went belly up."""
   [params.contact]
     enable = true
     title = "Register"
-    subtitle  = "So you are interested, sign-in filling the form and will send you the invoice (to pay as soon as possible to confirm)."
-    buttonText = "Send message"
+    subtitle  = "So are you interested ? Click below and fill in the form and we will send you the invoice (to pay as soon as possible please, to confirm venue reservation)."
+    buttonText = "Register"
     # netlify = true
 
     # Since this template is static, the contact form uses www.formspree.io as a
