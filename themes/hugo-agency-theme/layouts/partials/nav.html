@@ -1,5 +1,9 @@
 {{ "<!-- Navigation -->" | safeHTML }}
+{{ if .Params.nohero }}
+<nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
+{{ else }}
 <nav class="navbar navbar-default navbar-fixed-top">
+{{ end }}
   <div class="container">
 
     {{ "<!-- Brand and toggle get grouped for better mobile display -->" | safeHTML }}
