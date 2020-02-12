@@ -67,7 +67,7 @@ googleAnalytics = ""
 
     # postpended links
     [[menu.postpend]]
-      url = "http://gohugo.io"
+      url = "https://github.com/HackYourJob/MobProgrammingUnconfEU/wiki"
       name = "Wiki"
       weight = 10
 
