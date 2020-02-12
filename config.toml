@@ -90,7 +90,7 @@ googleAnalytics = ""
     [[params.services.row]]
 
     [[params.services.row.list]]
-      icon = "fa-shopping-cart"
+      icon = "fa-users"
       title = "Unconference"
       description = "It is a conference without predefined talks, speakers and agenda. It is following Open Space format, where all attendees will build the conference content. Organization only propose a venue welcoming you for 2 days & 3 nights."
       url = "#"
@@ -102,7 +102,7 @@ googleAnalytics = ""
       url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-lock"
+      icon = "fa-unlock"
       title = "Open to everyone"
       description = "There are no requirements on technology you work with or context at your work, just some interest and curiosity to Mob Programming and exchanges with people. You can also come accompanied and spend some additional days in our region, see [details](#details). **Note: official language will be English**."
       url = "#"
