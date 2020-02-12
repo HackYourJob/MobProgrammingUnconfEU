@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://example.org/"
 languageCode = "en-us"
-title = "Agency"
+title = "Mob Programming Unconference EU"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
@@ -52,7 +52,7 @@ googleAnalytics = ""
     services = "What is it about?"
     portfolio = "Details"
     about = "Schedule"
-    team = "Team"
+    # team = "Team"
     contact = "Register"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
