@@ -6,8 +6,9 @@
 
  :root {
 
-    --primary_color: #B1DDE8;
-    --active_color: #c8e7ee;
+    --primary_color: #343f58;
+    --text_color: #343f58;
+    --active_color: #B1DDE8;
     --border_color: #7b9aa2;
     --back_color: #6a848b;
 
@@ -19,7 +20,7 @@ body {
 }
 
 .text-muted {
-    color: var(--active_color);
+    color: var(--text_color);
 }
 
 .text-primary {
@@ -289,6 +290,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+        color: var(--active_color);
     }
 }
 
