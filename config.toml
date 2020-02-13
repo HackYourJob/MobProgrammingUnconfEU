@@ -84,8 +84,8 @@ googleAnalytics = ""
   # Services section
   [params.services]
     enable = true
-    title = "What is it ?"
-    subtitle = "Unconference ? Mob Programming ? Let us give some explanations."
+    title = "What is it?"
+    subtitle = "Unconference? Mob Programming? Let us give some explanations."
 
     [[params.services.row]]
 
@@ -98,7 +98,7 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-laptop"
       title = "Mob Programming"
-      description = "There is no specific subjects, but we have a theme around Mob Programming. There will be probably coding sessions (in mob ?), discussions around practices and even unattended subjects if participants want to!"
+      description = "There is no specific subjects, but we have a theme around Mob Programming. There will be probably coding sessions (in mob?), discussions around practices and even unattended subjects if participants want to!"
       url = "#"
 
     [[params.services.row.list]]
@@ -241,7 +241,7 @@ She worked at Pied Piper for years until they went belly up."""
   [params.contact]
     enable = true
     title = "Register"
-    subtitle  = "So are you interested ? Click below and to buy your ticket."
+    subtitle  = "So are you interested? Click below and to buy your ticket."
     description = "If you need anything, contact us on Twitter [@HackYrJob](https://twitter.com/HackYrJob) or by email [contact@hackyourjob.org](mailto:contact@hackyourjob.org)."
     buttonText = "Register"
     buttonLink = "https://www.billetweb.fr/mob-programming-unconference-europe"
