@@ -241,7 +241,7 @@ She worked at Pied Piper for years until they went belly up."""
   [params.contact]
     enable = true
     title = "Register"
-    subtitle  = "So are you interested ? Click below and fill in the form and we will send you the invoice (to pay as soon as possible please, to confirm venue reservation)."
+    subtitle  = "So are you interested ? Click below and to buy your ticket."
     description = "If you need anything, contact us on Twitter [@HackYrJob](https://twitter.com/HackYrJob) or by email [contact@hackyourjob.org](mailto:contact@hackyourjob.org)."
     buttonText = "Register"
     buttonLink = "https://www.billetweb.fr/mob-programming-unconference-europe"
