@@ -18,9 +18,9 @@
     </div>
     <div class="row">
       <div class="col-lg-12 text-center">
-        <div class="text-muted">
+        <p class="text-muted">
           {{ $contact.description | markdownify }}
-        </div>
+        </p>
         <a href="{{ $contact.buttonLink }}" class="btn btn-xl" >
           {{ print $contact.buttonText }}
         </a>

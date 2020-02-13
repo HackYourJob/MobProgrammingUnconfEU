@@ -92,7 +92,7 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-users"
       title = "Unconference"
-      description = "It is a conference without predefined talks, speakers and agenda. It is following Open Space format, where all attendees will build the conference content. Organization only propose a venue welcoming you for 2 days & 3 nights."
+      description = "It is a conference without predefined talks, speakers and agenda. It is following Open Space format, where all attendees will build the conference content. It is (non-)organized by [HackYourJob Community Lyon](https://www.hackyourjob.org) and [Woody Zuill, Mob Programming author](https://twitter.com/WoodyZuill), taking care of communication, ticketing & venue welcoming you for 2 days & 3 nights."
       url = "#"
 
     [[params.services.row.list]]
@@ -242,12 +242,9 @@ She worked at Pied Piper for years until they went belly up."""
     enable = true
     title = "Register"
     subtitle  = "So are you interested ? Click below and fill in the form and we will send you the invoice (to pay as soon as possible please, to confirm venue reservation)."
-    description = """
-This conference is organized by [HackYourJob Community](https://www.hackyourjob.org).
-
-If you need anything, contact us on Twitter [@HackYrJob](https://twitter.com/HackYrJob) or by email [contact@hackyourjob.org](mailto:contact@hackyourjob.org)."""
+    description = "If you need anything, contact us on Twitter [@HackYrJob](https://twitter.com/HackYrJob) or by email [contact@hackyourjob.org](mailto:contact@hackyourjob.org)."
     buttonText = "Register"
-    buttonLink = "https://docs.google.com/forms/d/e/1FAIpQLSeKpV-b86TkOPNiETp2vjqQPNmoANNnEOpaDFl9SopUbXehAQ/viewform"
+    buttonLink = "https://www.billetweb.fr/mob-programming-unconference-europe"
     # netlify = true
 
     # Since this template is static, the contact form uses www.formspree.io as a
