@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://hackyourjob.github.io/MobProgramminUnconfEU/"
+baseurl = "https://hackyourjob.github.io/MobProgrammingUnconfEU/"
 languageCode = "en-us"
 title = "Mob Programming Unconference EU"
 theme = "hugo-agency-theme"
