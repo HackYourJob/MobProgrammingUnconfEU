@@ -244,7 +244,7 @@ She worked at Pied Piper for years until they went belly up."""
     subtitle  = "So are you interested? Click below and to buy your ticket."
     description = "If you need anything, contact us on Twitter [@HackYrJob](https://twitter.com/HackYrJob) or by email [contact@hackyourjob.org](mailto:contact@hackyourjob.org)."
     buttonText = "Register"
-    buttonLink = "https://www.billetweb.fr/mob-programming-unconference-europe"
+    buttonLink = "https://www.billetweb.fr/mob-programming-unconference-europe?language=en"
     # netlify = true
 
     # Since this template is static, the contact form uses www.formspree.io as a
